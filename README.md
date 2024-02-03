@@ -1,4 +1,4 @@
-UqamGradeChecker
+UqamGradeChecker (OUTDATED NO LONGER WORKING) 
 ================
 
 This script checks for updates to grades on the UQAM student portal (<https://portailetudiant.uqam.ca/>) and sends an email or sms notification when a new grade is detected.
