@@ -8,8 +8,8 @@ import ssl
 from email.message import EmailMessage
 
 # Email that sends notification (https://youtu.be/g_j6ILT-X0k check this video for complete tutorial)
-email_sender = '<the gmail address that sends the notification>'
-email_sender_pass = '<password of that gmail>'
+email_sender = creds.email_sender
+email_sender_pass = creds.email_sender_pw
 
 # URL of request
 request_url1 = 'https://monportail.uqam.ca/authentification'
@@ -20,40 +20,26 @@ payload = {
     'motDePasse': creds.motDePasse
 }
 
-# Email settings
-to_email = creds.email_recever
-email_subject = 'Tu as reçu une nouvelle note !'
-email_body = 'Clique sur ce lien pour la découvrir: https://monportail.uqam.ca'
-
 # Send an email Function
 def send_email():
     em= EmailMessage()
-    em['From'] = email_sender
-    em['To'] = creds.email_recever
-    em['Subject'] = email_subject
-    em.set_content(email_body)
+    em['From'] = creds.email_sender
+    em['To'] = creds.email_receiver
+    em['Subject'] = 'Tu as reçu une nouvelle note !'
+    em.set_content('Clique sur ce lien pour la découvrir: https://monportail.uqam.ca')
 
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context ) as smtp:
-        smtp.login(email_sender, email_sender_pass)
-        smtp.sendmail(email_sender, creds.email_receiver, em.as_string())
+        smtp.login(creds.email_sender, creds.email_sender_pw)
+        smtp.sendmail(creds.email_sender, creds.email_receiver, em.as_string())
 
-# #sends sms using twilio 
-# def send_sms():   
-#     message = client.messages.create(
-#         body="\n\nTu as reçu une nouvelle note !"+
-#         '\n\nClique sur ce lien pour la découvrir: https://portailetudiant.uqam.ca/' ,
-#         from_=creds.sms_sender_number,
-#         to=creds.sms_receiver
-# )
-#     print(message.sid)	
 
 #Function that check if you've received a new grade
 def checkChanges(new_data):
     # Load the saved data file
     with open('notes.json', "r", encoding='utf-8') as f:
-        saved_data_str = f.read()  # read the contents of the file as a string
+        saved_data_str = f.read()  
         old_data = json.loads(saved_data_str)  # parse the string as JSON
 
     #Check if the file are the same
@@ -72,13 +58,13 @@ def checkChanges(new_data):
                                 # Compare the values
                                 if old_note != new_note:
                                     send_email()
-                                    send_sms()
+                                    # send_sms()
                                     with open('notes.json', 'w', encoding='utf-8') as f:
                                         json.dump(new_data, f, ensure_ascii=False, indent=2)
                                     sys.exit()
                                 if old_compteurEvaluation != new_compteurEvaluation:
                                     send_email()
-                                    send_sms()
+                                    # send_sms()
                                     with open('notes.json', 'w', encoding='utf-8') as f:
                                         json.dump(new_data, f, ensure_ascii=False, indent=2)
                                     sys.exit()

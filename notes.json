@@ -1,0 +1,621 @@
+{
+  "status": "success",
+  "data": {
+    "resultats": [
+      {
+        "trimestre": 20243,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20243,
+                "sigle": "INF4150",
+                "groupe": 20,
+                "titreActivite": "INTERFACES PERSONNES-MACHINES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20243,
+                "sigle": "INF5190",
+                "groupe": 30,
+                "titreActivite": "Programmation Web avancée",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20243,
+                "sigle": "INF6120",
+                "groupe": 20,
+                "titreActivite": "PROGRAMMATION FONCTIONNELLE ET LOGIQUE",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20242,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20242,
+                "sigle": "FIN3500",
+                "groupe": 10,
+                "titreActivite": "GESTION FINANCIERE",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20242,
+                "sigle": "INF5081",
+                "groupe": 20,
+                "titreActivite": "GESTION ET ANALYSE DE DONNEES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20242,
+                "sigle": "INF5130",
+                "groupe": 20,
+                "titreActivite": "ALGORITHMIQUE",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20242,
+                "sigle": "INF5153",
+                "groupe": 20,
+                "titreActivite": "GENIE LOGICIEL (CONCEPTION)",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "N",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20241,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20241,
+                "sigle": "INF3105",
+                "groupe": 11,
+                "titreActivite": "STRUCTURE DE DONNEES ET ALGORITHMES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20241,
+                "sigle": "INF4170",
+                "groupe": 50,
+                "titreActivite": "ARCHITECTURE DES ORDINATEURS",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 2,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20241,
+                "sigle": "INF6150",
+                "groupe": 30,
+                "titreActivite": "GENIE LOGICIEL III:CONDUITE DE PROJETS INFORMATIQUES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 3,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20241,
+                "sigle": "INM5151",
+                "groupe": 11,
+                "titreActivite": "PROJET D'ANALYSE ET DE MODELISATION",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20241,
+                "sigle": "INM6000",
+                "groupe": 50,
+                "titreActivite": "INFORMATIQUE ET SOCIETE",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 0,
+                "note": null,
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20233,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20233,
+                "sigle": "AOT5341",
+                "groupe": 40,
+                "titreActivite": "Collaboration à l'ère du travail hybride",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 4,
+                "note": "C ",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20233,
+                "sigle": "INF3173",
+                "groupe": 20,
+                "titreActivite": "PRINCIPES DES SYSTEMES D'EXPLOITATION",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 7,
+                "note": "B+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20233,
+                "sigle": "INF3271",
+                "groupe": 30,
+                "titreActivite": "TELEINFORMATIQUE",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 6,
+                "note": "C+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20233,
+                "sigle": "INF5151",
+                "groupe": 30,
+                "titreActivite": "GENIE LOGICIEL:  ANALYSE ET MODELISATION",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 4,
+                "note": "B+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20232,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20232,
+                "sigle": "INF3105",
+                "groupe": 30,
+                "titreActivite": "STRUCTURE DE DONNEES ET ALGORITHMES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 8,
+                "note": "XX",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20232,
+                "sigle": "INF3135",
+                "groupe": 20,
+                "titreActivite": "CONSTRUCTION ET MAINTENANCE DE LOGICIELS",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 5,
+                "note": "C-",
+                "commentaireEtudiantExiste": "O",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20232,
+                "sigle": "INF3190",
+                "groupe": 40,
+                "titreActivite": "INTRODUCTION A LA PROGRAMMATION WEB",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 5,
+                "note": "B-",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20231,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20231,
+                "sigle": "INF2171",
+                "groupe": 10,
+                "titreActivite": "ORGANISATION DES ORDINATEURS ET ASSEMBLEUR",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 5,
+                "note": "C+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20231,
+                "sigle": "INF3080",
+                "groupe": 30,
+                "titreActivite": "BASES DE DONNEES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 5,
+                "note": "C-",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20231,
+                "sigle": "INF3135",
+                "groupe": 10,
+                "titreActivite": "CONSTRUCTION ET MAINTENANCE DE LOGICIELS",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 5,
+                "note": "XX",
+                "commentaireEtudiantExiste": "O",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20231,
+                "sigle": "INF4471",
+                "groupe": 40,
+                "titreActivite": "INTRODUCTION A LA SECURITE INFORMATIQUE",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 4,
+                "note": "C+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20223,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20223,
+                "sigle": "ANG2055",
+                "groupe": 10,
+                "titreActivite": "CONVERSATION I",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 0,
+                "note": "A+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20223,
+                "sigle": "INF1132",
+                "groupe": 20,
+                "titreActivite": "Mathématiques pour l'informatique",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 4,
+                "note": "D+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20223,
+                "sigle": "INF2050",
+                "groupe": 30,
+                "titreActivite": "OUTILS ET PRATIQUES DE DEVELOPPEMENT LOGICIEL",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 7,
+                "note": "B ",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20223,
+                "sigle": "INF2120",
+                "groupe": 20,
+                "titreActivite": "PROGRAMMATION II",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 7,
+                "note": "A-",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20222,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20222,
+                "sigle": "INF1070",
+                "groupe": 20,
+                "titreActivite": "UTILISATION ET ADMIN. DES SYSTEMES INFORMATIQUES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 7,
+                "note": "B+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20221,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20221,
+                "sigle": "INF1070",
+                "groupe": 10,
+                "titreActivite": "UTILISATION ET ADMIN. DES SYSTEMES INFORMATIQUES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 7,
+                "note": "L ",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20221,
+                "sigle": "INF1120",
+                "groupe": 10,
+                "titreActivite": "PROGRAMMATION I",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 9,
+                "note": "B ",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20221,
+                "sigle": "MAT0341",
+                "groupe": 30,
+                "titreActivite": "CALCUL DIFFERENTIEL ET INTEGRAL I (HORS-PROGRAMME)",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 3,
+                "note": "C+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20221,
+                "sigle": "MAT4681",
+                "groupe": 40,
+                "titreActivite": "STATISTIQUE POUR LES SCIENCES",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 3,
+                "note": "D+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trimestre": 20213,
+        "programmes": [
+          {
+            "codeProg": "7316",
+            "titreProgramme": "baccalauréat en informatique et génie logiciel",
+            "activites": [
+              {
+                "trimestre": 20213,
+                "sigle": "ECO1081",
+                "groupe": 50,
+                "titreActivite": "ECONOMIE DES TECHNOLOGIES DE L'INFORMATION",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 3,
+                "note": "D+",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20213,
+                "sigle": "INF1120",
+                "groupe": 20,
+                "titreActivite": "PROGRAMMATION I",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 9,
+                "note": "XX",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20213,
+                "sigle": "MAT0341",
+                "groupe": 10,
+                "titreActivite": "CALCUL DIFFERENTIEL ET INTEGRAL I (HORS-PROGRAMME)",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 3,
+                "note": "L ",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              },
+              {
+                "trimestre": 20213,
+                "sigle": "MET1110",
+                "groupe": 30,
+                "titreActivite": "ORGANISATION, GESTION ET SYSTEME D'INFORMATION",
+                "creditActivite": 3,
+                "programme": "7316",
+                "titreProgramme": "baccalauréat en informatique et génie logiciel",
+                "systemeResultats": "O",
+                "compteurEvaluation": 7,
+                "note": "C ",
+                "commentaireEtudiantExiste": "N",
+                "commentaireGroupeExiste": "N"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
