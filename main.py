@@ -21,12 +21,16 @@ payload = {
 }
 
 # Send an email Function
-def send_email():
+def send_email(sigle, note):
     em= EmailMessage()
     em['From'] = creds.email_sender
     em['To'] = creds.email_receiver
     em['Subject'] = 'Tu as reçu une nouvelle note !'
-    em.set_content('Clique sur ce lien pour la découvrir: https://monportail.uqam.ca')
+    note = 'N/A' if note is None else note  # Handle null note
+    content = 'Clique sur ce lien pour la découvrir: https://monportail.uqam.ca\n\n' + \
+               'Sigle: ' + sigle + '\n' + \
+               'Note: ' + note
+    em.set_content(content)
 
     context = ssl.create_default_context()
 
@@ -53,17 +57,18 @@ def checkChanges(new_data):
                     for new_result in new_data['data']['resultats']:
                         for new_program in new_result['programmes']:
                             for new_activity in new_program['activites']:
+                                new_sigle = new_activity.get('sigle')
                                 new_note = new_activity.get('note')
                                 new_compteurEvaluation = new_activity.get('compteurEvaluation')
                                 # Compare the values
                                 if old_note != new_note:
-                                    send_email()
+                                    send_email(new_sigle, new_note)
                                     # send_sms()
                                     with open('notes.json', 'w', encoding='utf-8') as f:
                                         json.dump(new_data, f, ensure_ascii=False, indent=2)
                                     sys.exit()
                                 if old_compteurEvaluation != new_compteurEvaluation:
-                                    send_email()
+                                    send_email(new_sigle, new_note)
                                     # send_sms()
                                     with open('notes.json', 'w', encoding='utf-8') as f:
                                         json.dump(new_data, f, ensure_ascii=False, indent=2)
@@ -195,9 +200,3 @@ else:
     # Convert the response to a JSON object
     data = json.loads(response.text)
     checkChanges(data)
-
-
-
-
-
-
